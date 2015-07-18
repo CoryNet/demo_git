@@ -12,8 +12,7 @@
 			// Pour tous les autres types
 			else
 			{
-
-			}
+				$string = mysql_real_escape_string($string);			}
 				
 			return $string;
 
